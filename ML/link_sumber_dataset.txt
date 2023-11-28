@@ -1,0 +1,9 @@
+
+!git clone "https://github.com/google-research-datasets/poem-sentiment/"
+!git clone "https://huggingface.co/datasets/mteb/tweet_sentiment_extraction/"
+
+!gdown "1nOq-QxagdrNYag51XDhQwTCTok6LN89h" #sentimemt140
+
+!gdown "1XtKRlTEjPN-Yp65cZKuiEcGxzr4HCY8D" #sentimen yg lama (700k)
+
+!gdown "1iEQeMmeOp0UQVSdbKI3JBw4TOWPQULy-" #tambahan netral

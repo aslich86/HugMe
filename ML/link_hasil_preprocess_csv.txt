@@ -1,0 +1,24 @@
+Downloading...
+From: https://drive.google.com/uc?id=1-4zBG5E6QD2RQ7u2Oygj049j4qRPQ3a6
+To: /content/MH_Campaign_sentiment.csv
+100% 143M/143M [00:01<00:00, 96.6MB/s]
+
+Downloading...
+From: https://drive.google.com/uc?id=1q2qL3QnAV1KsrgyGNuDopY3cjbAofMPy
+To: /content/poem_sentiment.csv
+100% 40.6k/40.6k [00:00<00:00, 103MB/s]
+
+Downloading...
+From: https://drive.google.com/uc?id=1-4vKWxEKfIW_Hjo93T5U2X26ZV-L3KSA
+To: /content/sentimen140.csv
+100% 124M/124M [00:01<00:00, 101MB/s]
+
+Downloading...
+From: https://drive.google.com/uc?id=1cos1toN-hpQavSRtdwmsroUau6xUreyU
+To: /content/tweet_sentiment_extraction.csv
+100% 2.24M/2.24M [00:00<00:00, 224MB/s]
+
+Downloading...
+From: https://drive.google.com/uc?id=1I6Ey2CyKzyUDG5qHzcb8hqvPjDm9Sb7_
+To: /content/tambahan_netral.csv
+100% 273k/273k [00:00<00:00, 109MB/s]
