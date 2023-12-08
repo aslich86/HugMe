@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LoginWithAnimation</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">A place where your mental health is a top priority</string>
+    <string name="title_welcome_page">Welcome HugMe!</string>
+    <string name="title_signup_page">Please enter your data</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Please enter your data.</string>
+    <string name="title_login_page">We Care Your Mental Health</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="password_error">Password tidak boleh kurang dari 8 karakter</string>
+    <string name="email_error">Masukkan alamat email yang valid (contoh: example@gmail.com)</string>
+    <string name="check_mental_health">Check Mental Health</string>
+    <string name="chat_forum">Forum Chat</string>
+    <string name="features">features</string>
+    <string name="greeting_main_profilebar">Hai, User bagaimana perasaanmu hari ini?</string>
+    <string name="hugme_topbar">HugMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TextView_profile_topbar">Profile</string>
+</resources>
