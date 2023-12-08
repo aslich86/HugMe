@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_image_dicoding.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/image_dicoding.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/menu_bottom_navigation_bar.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/menu/bottom_navigation_bar.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_activity_login.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_activity_check.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_check.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_image_signup.jpg.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/image_signup.jpg"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_image_welcome.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/image_welcome.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_baseline_beranda_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/baseline_beranda_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-pngs-53:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_image_login.jpg.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/image_login.jpg"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_baseline_person_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_activity_welcome.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_hugme_logo.png.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/hugme_logo.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_fragment_profile.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/layout_activity_signup.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/menu_main_menu.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_baseline_mental_health_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/baseline_mental_health_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/font_poppins_medium.ttf.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/navigation_nav_graph.xml.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/drawable_hugme_small.png.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/drawable/hugme_small.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]

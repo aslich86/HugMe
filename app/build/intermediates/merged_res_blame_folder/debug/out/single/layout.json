@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/activity_login.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/fragment_profile.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/activity_check.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_check.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/activity_signup.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.loginwithanimation.app-mergeDebugResources-56:/layout/activity_welcome.xml",
+        "source": "com.dicoding.picodiploma.loginwithanimation.app-main-59:/layout/activity_welcome.xml"
+    }
+]
