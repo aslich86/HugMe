@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">LoginWithAnimation</string>
-    <string name="signup">Daftar</string>
-    <string name="login">Masuk</string>
+    <string name="app_name">Hugme</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Login</string>
     <string name="message_welcome_page">A place where your mental health is a top priority</string>
-    <string name="title_welcome_page">Welcome HugMe!</string>
+    <string name="title_welcome_page">Welcome to HugMe!</string>
     <string name="title_signup_page">Please enter your data</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -23,4 +23,19 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="TextView_profile_topbar">Profile</string>
+    <string name="mode_dark_amp_light"><![CDATA[Mode | Dark & Light]]></string>
+    <string name="general_settings">General Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="username_profile">Username</string>
+    <string name="language">Language</string>
+    <string name="information">Information</string>
+    <string name="about_the_app">About the app</string>
+    <string name="terms_and_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="belum_punya_akun">Don`t have an account yet?</string>
+    <string name="TvLogin">Login</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="loginimage">LoginImage</string>
+    <string name="signupimage">SignupImage</string>
+    <string name="already_have_an_account">Already have an account?</string>
 </resources>

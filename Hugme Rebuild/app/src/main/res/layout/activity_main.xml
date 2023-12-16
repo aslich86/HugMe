@@ -1,164 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context=".view.main.MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linearContainer_topbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView_topbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#E7F4FD">
-
-            <LinearLayout
-                android:id="@+id/linear_topbar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/img_logo_topbar"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/hugme_small" />
-
-                <com.google.android.material.textview.MaterialTextView
-                    android:id="@+id/textview_logo_topbar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="55dp"
-                    android:layout_marginStart="20dp"
-                    android:fontFamily="@font/poppins_medium"
-                    android:text="@string/hugme_topbar"
-                    android:textSize="32sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/CardView_home_profilebar"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#E7F4FD">
-
-            <LinearLayout
-                android:id="@+id/linear_container_profile"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="10dp">
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/CardView_image_profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="-80dp"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="250dp"
-                    app:layout_constraintBottom_toTopOf="@+id/card_loginpage"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent">
-
-
-                    <ImageView
-                        android:id="@+id/ImageView_home_profile"
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/ic_profile" />
-
-                </androidx.cardview.widget.CardView>
-
-                <com.google.android.material.textview.MaterialTextView
-                    android:id="@+id/TextView_home_greeting"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:fontFamily="@font/poppins_medium"
-                    android:gravity="start"
-                    android:padding="10dp"
-                    android:text="@string/greeting_main_profilebar"
-                    android:textSize="12sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/TextView_features"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/features"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/ConstraintLayout_features"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:gravity="center_vertical"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnCheckMentalHealth"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="@string/check_mental_health"
-                android:textSize="10sp"
-                app:cornerRadius="10dp"
-                app:icon="@drawable/ic_checkmental_24"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnChatForum"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:layout_marginStart="25dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="@string/chat_forum"
-                android:textSize="10sp"
-                app:cornerRadius="10dp"
-                app:icon="@drawable/ic_chatroom_24dp"
-                app:layout_constraintStart_toEndOf="@+id/btnCheckMentalHealth"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_nav_bar"
-        android:layout_width="match_parent"
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:itemTextColor="@color/black"
-        app:itemIconTint="@color/black"
-        app:elevation="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white"
-        app:menu="@menu/bottom_navigation_bar"/>
+        app:menu="@menu/bottom_navigation_bar">
 
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>

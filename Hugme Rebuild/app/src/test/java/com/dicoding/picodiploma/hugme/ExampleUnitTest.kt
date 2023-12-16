@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation
+package com.dicoding.picodiploma.hugme
 
 import org.junit.Test
 

@@ -2,6 +2,7 @@ package com.dicoding.picodiploma.hugme.view.signup
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.picodiploma.hugme.databinding.ActivitySignupBinding
 import com.dicoding.picodiploma.hugme.view.ViewModelFactory
 import com.dicoding.picodiploma.hugme.data.Result
+import com.dicoding.picodiploma.hugme.view.login.LoginActivity
 
 class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
@@ -25,6 +27,11 @@ class SignupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.textLinkLogin.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
 
         setupView()
         setupAction()
@@ -134,7 +141,8 @@ class SignupActivity : AppCompatActivity() {
         val passwordEditTextLayout =
             ObjectAnimator.ofFloat(binding.passwordEditTextLayout, View.ALPHA, 1f).setDuration(100)
         val signup = ObjectAnimator.ofFloat(binding.signupButton, View.ALPHA, 1f).setDuration(100)
-
+        val text = ObjectAnimator.ofFloat(binding.textLinkLogin, View.ALPHA, 1f).setDuration(100)
+        val tvLogin = ObjectAnimator.ofFloat(binding.textLogin,View.ALPHA, 1f).setDuration(100)
 
         AnimatorSet().apply {
             playSequentially(
@@ -145,7 +153,9 @@ class SignupActivity : AppCompatActivity() {
                 emailEditTextLayout,
                 passwordTextView,
                 passwordEditTextLayout,
-                signup
+                signup,
+                text,
+                tvLogin
             )
             startDelay = 100
         }.start()

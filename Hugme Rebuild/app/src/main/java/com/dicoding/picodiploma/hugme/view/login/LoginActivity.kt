@@ -17,8 +17,9 @@ import com.dicoding.picodiploma.hugme.databinding.ActivityLoginBinding
 import com.dicoding.picodiploma.hugme.view.ViewModelFactory
 import com.dicoding.picodiploma.hugme.data.Result
 import com.dicoding.picodiploma.hugme.view.main.MainActivity
+import com.dicoding.picodiploma.hugme.view.signup.SignupActivity
 
-class LoginActivity : AppCompatActivity() {
+class   LoginActivity : AppCompatActivity() {
     private val viewModel by viewModels<LoginViewModel> {
         ViewModelFactory.getInstance(this)
     }
@@ -28,6 +29,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.TextLinkSignUp.setOnClickListener{
+            val intent = Intent(this, SignupActivity::class.java)
+            startActivity(intent)
+        }
 
         setupView()
         setupAction()
@@ -97,6 +103,7 @@ class LoginActivity : AppCompatActivity() {
                                 viewModel.saveSession(dataUser)
                                 finish()
                             }
+
                             is Result.Error ->{
                                 showLoading(isLoading = false)
                                 showToast(result.error)
@@ -127,7 +134,8 @@ class LoginActivity : AppCompatActivity() {
         val passwordEditTextLayout =
             ObjectAnimator.ofFloat(binding.passwordEditTextLayout, View.ALPHA, 1f).setDuration(100)
         val login = ObjectAnimator.ofFloat(binding.loginButton, View.ALPHA, 1f).setDuration(100)
-
+        val text = ObjectAnimator.ofFloat(binding.TextLinkSignUp, View.ALPHA, 1f).setDuration(100)
+        val tvsignup = ObjectAnimator.ofFloat(binding.TextSignUp,View.ALPHA, 1f).setDuration(100)
         AnimatorSet().apply {
             playSequentially(
                 title,
@@ -136,7 +144,9 @@ class LoginActivity : AppCompatActivity() {
                 emailEditTextLayout,
                 passwordTextView,
                 passwordEditTextLayout,
-                login
+                login,
+                text,
+                tvsignup
             )
             startDelay = 100
         }.start()

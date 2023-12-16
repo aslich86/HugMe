@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation.custom
+package com.dicoding.picodiploma.hugme.custom
 
 import android.content.Context
 import android.text.Editable
